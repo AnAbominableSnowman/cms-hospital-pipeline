@@ -1,0 +1,46 @@
+# Proves the README's Quick start works on a brand-new machine: each job starts from a
+# clean runner, installs exactly as the README says, runs the offline tests, then (on
+# the oldest supported Python) runs the real pipeline twice against the live CMS API.
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.11", "3.13"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Install (README Quick start)
+        shell: bash
+        run: |
+          python -m venv .venv
+          if [ -d .venv/Scripts ]; then PY=.venv/Scripts/python; else PY=.venv/bin/python; fi
+          echo "PY=$PY" >> "$GITHUB_ENV"
+          $PY -m pip install -e ".[dev]"
+
+      - name: Offline tests
+        shell: bash
+        run: $PY -m pytest -q
+
+      - name: End to end against the live CMS API
+        if: matrix.python == '3.11'
+        shell: bash
+        run: |
+          $PY -m cms_pipeline
+          $PY -m cms_pipeline | tee second.txt
+          grep -q "processed=0 skipped=" second.txt   # second run downloads nothing
+          $PY run_queries.py > /dev/null
+          $PY -m pytest -q -m live

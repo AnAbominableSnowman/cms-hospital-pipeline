@@ -143,7 +143,7 @@ type, and how well each measure is populated.
 
 ## Tests
 ```bash
-.venv/bin/python -m pytest            # 115 offline tests, about 2 s
+.venv/bin/python -m pytest            # 116 offline tests, about 2 s
 .venv/bin/python -m pytest -m live    # 3 tests against the real API and state/hospitals.db
 ```
 The offline suite replaces HTTP with an in-memory fake (`session_factory`). It covers:

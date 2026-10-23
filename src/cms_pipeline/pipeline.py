@@ -45,6 +45,7 @@ from .transform import snake_case_headers
 log = logging.getLogger(__name__)
 
 CHUNK_SIZE = 1024 * 256
+MAX_TITLE_CHARS = 60  # title part of an output filename
 _UTF8_BOM = b"\xef\xbb\xbf"
 _FALLBACK_ENCODING = "cp1252"  # what a non-UTF-8 CSV exported from Excel/Windows almost always is
 
@@ -81,8 +82,14 @@ def build_session(retries: int = 4, backoff: float = 1.0) -> requests.Session:
 
 
 def safe_filename(dataset: Dataset) -> str:
-    """Filesystem-safe, deterministic output name for a dataset's CSV."""
-    stem = re.sub(r"[^0-9a-zA-Z]+", "_", dataset.title).strip("_").lower()
+    """Filesystem-safe, deterministic output name for a dataset's CSV.
+
+    The title part is capped so the full path stays well under Windows' default
+    260-character limit (some CMS titles are ~170 characters). The identifier keeps
+    names unique after truncation.
+    """
+    stem = re.sub(r"[^0-9a-zA-Z]+", "_", dataset.title).lower()
+    stem = stem.strip("_")[:MAX_TITLE_CHARS].rstrip("_")
     stem = stem or "dataset"
     return f"{stem}__{dataset.identifier}.csv"
 

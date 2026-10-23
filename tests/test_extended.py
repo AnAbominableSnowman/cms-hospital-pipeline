@@ -200,6 +200,15 @@ def test_safe_filename_is_deterministic_and_clean():
     assert safe_filename(ds) == "patients_rating_hcahps_survey__abc-123.csv"
 
 
+def test_safe_filename_stays_short_for_windows_paths():
+    # A real CMS title (~170 chars) that broke Windows' 260-character path limit.
+    title = ("Outpatient and Ambulatory Surgery Consumer Assessment of Healthcare Providers "
+             "and Systems (OAS CAHPS) survey for hospital outpatient departments - Facility")
+    name = safe_filename(Dataset("yizn-abxn", title, "1", "http://x.csv"))
+    assert name == "outpatient_and_ambulatory_surgery_consumer_assessment_of_hea__yizn-abxn.csv"
+    assert len(name) <= 80
+
+
 # ---------- CLI ----------
 
 def test_cli_exit_codes(tmp_path, monkeypatch):
