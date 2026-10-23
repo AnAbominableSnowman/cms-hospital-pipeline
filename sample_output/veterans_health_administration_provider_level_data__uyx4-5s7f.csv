@@ -1,0 +1,7 @@
+facility_id,facility_name,address,city_town,state,zip_code,county_parish,telephone_number,hospital_type,hospital_ownership,emergency_services,hospital_overall_rating,hospital_overall_rating_footnote
+01014F,BIRMINGHAM VA MEDICAL CENTER,700 SOUTH 19TH STREET,BIRMINGHAM,AL,35233,JEFFERSON,(205) 933-4515,Acute Care - Veterans Administration,Veterans Health Administration,Yes,4,
+01019F,VA CENTRAL ALABAMA HEALTHCARE SYSTEM - MONTGOMERY,215 PERRY HILL ROAD,MONTGOMERY,AL,36109,MONTGOMERY,(334) 260-4100,Acute Care - Veterans Administration,Veterans Health Administration,Yes,4,
+01021F,TUSCALOOSA VA MEDICAL CENTER,3701 LOOP ROAD EAST,TUSCALOOSA,AL,35404,TUSCALOOSA,(205) 554-2000,Acute Care - Veterans Administration,Veterans Health Administration,No,Not Available,16
+03012F,PHOENIX VA MEDICAL CENTER,650 E. INDIAN SCHOOL ROAD,PHOENIX,AZ,85012,MARICOPA,(602) 222-6444,Acute Care - Veterans Administration,Veterans Health Administration,Yes,5,
+03013F,VA S. ARIZONA HEALTHCARE SYSTEM,3601 SOUTH SIXTH AVENUE,TUCSON,AZ,85723,PIMA,(520) 629-1821,Acute Care - Veterans Administration,Veterans Health Administration,Yes,5,
+03033F,VA NORTHERN ARIZONA HEALTHCARE SYSTEM,500 HIGHWAY 89 NORTH,PRESCOTT,AZ,86313,YAVAPAI,(928) 445-4860,Acute Care - Veterans Administration,Veterans Health Administration,Yes,5,

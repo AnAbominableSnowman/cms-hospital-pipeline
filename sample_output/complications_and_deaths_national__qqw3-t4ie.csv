@@ -1,0 +1,7 @@
+measure_id,measure_name,national_rate,number_of_hospitals_worse,number_of_hospitals_same,number_of_hospitals_better,number_of_hospitals_too_few,footnote,start_date,end_date
+COMP_HIP_KNEE,Rate of complications for hip/knee replacement patients,4.1,Not Available,Not Available,Not Available,Not Available,,04/01/2023,03/31/2025
+Hybrid_HWM,Hybrid Hospital-Wide All-Cause Risk Standardized Mortality Rate,3.9,Not Available,Not Available,Not Available,Not Available,,07/01/2024,06/30/2025
+MORT_30_AMI,Death rate for heart attack patients,11.9,Not Available,Not Available,Not Available,Not Available,,07/01/2022,06/30/2025
+MORT_30_CABG,Death rate for CABG surgery patients,2.4,Not Available,Not Available,Not Available,Not Available,,07/01/2022,06/30/2025
+MORT_30_COPD,Death rate for COPD patients,8.6,Not Available,Not Available,Not Available,Not Available,,07/01/2022,06/30/2025
+MORT_30_HF,Death rate for heart failure patients,11.1,Not Available,Not Available,Not Available,Not Available,,07/01/2022,06/30/2025

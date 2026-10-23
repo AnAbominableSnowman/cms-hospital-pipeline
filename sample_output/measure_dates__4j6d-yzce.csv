@@ -1,0 +1,7 @@
+measure_id,measure_name,measure_start_quarter,start_date,measure_end_quarter,end_date
+ASC_1,Number of patients who experience a burn prior to discharge from the ASC,1Q2024,01/01/2024,4Q2024,12/31/2024
+ASC_11,Percentage of patients who had cataract surgery and had improvement in visual function within 90 days following the surgery,1Q2024,01/01/2024,4Q2024,12/31/2024
+ASC_12,Facility 7-Day Risk Standardized Hospital Visit Rate after Outpatient Colonoscopy,1Q2022,01/01/2022,4Q2024,12/31/2024
+ASC_13,Percentage of patients who received anesthesia who had a body temperature of 96.8 Fahrenheit within 15 minutes of arriving in the post-anesthesia care unit,1Q2024,01/01/2024,4Q2024,12/31/2024
+ASC_14,Percentage of cataract surgeries that had an unplanned additional eye surgery (anterior vitrectomy),1Q2024,01/01/2024,4Q2024,12/31/2024
+ASC_17,Hospital Visits after Orthopedic Ambulatory Surgical Center Procedures,1Q2023,01/01/2023,4Q2024,12/31/2024

@@ -1,0 +1,7 @@
+state,measure_id,measure_name,score,footnote,start_date,end_date
+AK,MSPB-1,Medicare hospital spending per patient (Medicare Spending per Beneficiary),0.92,14,01/01/2024,12/31/2024
+AL,MSPB-1,Medicare hospital spending per patient (Medicare Spending per Beneficiary),0.98,,01/01/2024,12/31/2024
+AR,MSPB-1,Medicare hospital spending per patient (Medicare Spending per Beneficiary),1.03,,01/01/2024,12/31/2024
+AS,MSPB-1,Medicare hospital spending per patient (Medicare Spending per Beneficiary),Not Available,9,01/01/2024,12/31/2024
+AZ,MSPB-1,Medicare hospital spending per patient (Medicare Spending per Beneficiary),0.94,,01/01/2024,12/31/2024
+CA,MSPB-1,Medicare hospital spending per patient (Medicare Spending per Beneficiary),1.02,,01/01/2024,12/31/2024

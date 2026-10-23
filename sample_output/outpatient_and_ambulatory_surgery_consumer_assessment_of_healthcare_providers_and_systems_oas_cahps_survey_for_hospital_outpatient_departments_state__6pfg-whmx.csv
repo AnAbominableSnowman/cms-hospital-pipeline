@@ -1,0 +1,7 @@
+state,oas_cahps_measure_id,oas_cahps_question,oas_cahps_answer_description,oas_cahps_answer_percent,oas_cahps_answer_percent_footnote,start_date,end_date
+AK,O_COMP_1_N_S,"Patients who reported that the facility was ""not"" clean, and staff were ""not"" helpful and respectful","Facility was ""not"" clean and staff were ""not"" helpful and respectful",1,,10/01/2024,09/30/2025
+AK,O_COMP_1_YD_S,"Patients who reported that ""definitely"" the facility was clean, and staff were helpful and respectful","Facility was ""definitely"" clean and staff were ""definitely"" helpful and respectful",96,,10/01/2024,09/30/2025
+AK,O_COMP_1_YS_S,"Patients who reported ""somewhat"" that the facility was clean, and staff were helpful and respectful","Facility was ""somewhat"" clean and staff were ""somewhat"" helpful and respectful",3,,10/01/2024,09/30/2025
+AK,O_COMP_2_N_S,"Patients who reported that staff ""did not"" give them clear and complete information about their procedure","Facility and staff ""did not"" communicate well to the patient about their procedure",1,,10/01/2024,09/30/2025
+AK,O_COMP_2_YD_S,"Patients who reported that staff ""definitely"" gave them clear and complete information about their procedure","Facility and staff ""definitely"" communicated well to the patient about their procedure",92,,10/01/2024,09/30/2025
+AK,O_COMP_2_YS_S,"Patients who reported that staff ""somewhat"" gave them clear and complete information about their procedure","Facility and staff ""somewhat"" communicated well to the patient about their procedure",7,,10/01/2024,09/30/2025

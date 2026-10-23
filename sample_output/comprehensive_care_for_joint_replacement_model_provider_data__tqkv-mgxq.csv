@@ -1,0 +1,7 @@
+facility_id,facility_name,msa,msa_title,hcahps_hlmr,hcahps_hlmr_percentile,hcahps_start_date,hcahps_end_date,hcahps_footnote,comp_hip_knee,comp_hip_knee_percentile,comp_start_date,comp_end_date,comp_footnote,pro,pro_start_date,pro_end_date,reconciliation_footnote
+010023,BAPTIST MEDICAL CENTER SOUTH,33860,"Montgomery, AL",84.69,53%,07/01/2023,06/30/2024,,4.29536,18%,04/01/2021,03/31/2024,,N,07/01/2022,06/30/2023,
+040026,CHI ST. VINCENT HOSPITAL HOT SPRINGS,26300,"Hot Springs, AR",84.13,46%,07/01/2023,06/30/2024,,3.05659,81%,04/01/2021,03/31/2024,,N,07/01/2022,06/30/2023,
+040078,NATIONAL PARK MEDICAL CENTER,26300,"Hot Springs, AR",80.31,10%,07/01/2023,06/30/2024,,3.60857,47%,04/01/2021,03/31/2024,,N,07/01/2022,06/30/2023,
+050056,ANTELOPE VALLEY HOSPITAL,31080,"Los Angeles-Long Beach-Anaheim, CA",78.13,4%,07/01/2023,06/30/2024,,N/A,N/A,04/01/2021,03/31/2024,1,N,07/01/2022,06/30/2023,
+050069,PROVIDENCE ST JOSEPH HOSPITAL,31080,"Los Angeles-Long Beach-Anaheim, CA",85.63,66%,07/01/2023,06/30/2024,,4.69222,9%,04/01/2021,03/31/2024,,N,07/01/2022,06/30/2023,
+050078,PROVIDENCE LITTLE CO OF MARY MED CTR SAN PEDRO,31080,"Los Angeles-Long Beach-Anaheim, CA",83.75,40%,07/01/2023,06/30/2024,,N/A,N/A,04/01/2021,03/31/2024,1,N,07/01/2022,06/30/2023,

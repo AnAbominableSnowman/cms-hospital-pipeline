@@ -1,0 +1,7 @@
+state,measure_id,measure_name,number_of_hospitals_worse,number_of_hospitals_same,number_of_hospitals_better,number_of_hospitals_too_few,footnote,start_date,end_date,number_of_hospitals_fewer,number_of_hospitals_average,number_of_hospitals_more,number_of_hospitals_too_small
+AK,EDAC_30_AMI,Hospital return days for heart attack patients,Not Applicable,Not Applicable,Not Applicable,Not Applicable,,07/01/2022,06/30/2025,Not Available,Not Available,Not Available,Not Available
+AK,EDAC_30_HF,Hospital return days for heart failure patients,Not Applicable,Not Applicable,Not Applicable,Not Applicable,,07/01/2022,06/30/2025,Not Available,Not Available,Not Available,Not Available
+AK,EDAC_30_PN,Hospital return days for pneumonia patients,Not Applicable,Not Applicable,Not Applicable,Not Applicable,,07/01/2022,06/30/2025,Not Available,Not Available,Not Available,Not Available
+AK,Hybrid_HWR,Hybrid Hospital-Wide All-Cause Readmission Measure (HWR),Not Available,Not Available,Not Available,Not Available,4,07/01/2024,06/30/2025,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+AK,OP_32,"Rate of unplanned hospital visits after colonoscopy (per 1,000 colonoscopies)",0,7,0,6,,01/01/2022,12/31/2024,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+AK,OP_35_ADM,Rate of inpatient admissions for patients receiving outpatient chemotherapy,0,8,0,6,,01/01/2024,12/31/2024,Not Applicable,Not Applicable,Not Applicable,Not Applicable

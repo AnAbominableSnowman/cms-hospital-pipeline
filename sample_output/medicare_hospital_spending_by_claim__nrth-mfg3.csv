@@ -1,0 +1,7 @@
+facility_name,facility_id,state,period,claim_type,avg_spndg_per_ep_hospital,avg_spndg_per_ep_state,avg_spndg_per_ep_national,percent_of_spndg_hospital,percent_of_spndg_state,percent_of_spndg_national,start_date,end_date
+SOUTHEAST HEALTH MEDICAL CENTER,010001,AL,1 to 3 days Prior to Index Hospital Admission,Home Health Agency,25,22,19,0.09%,0.08%,0.07%,01/01/2024,12/31/2024
+SOUTHEAST HEALTH MEDICAL CENTER,010001,AL,1 to 3 days Prior to Index Hospital Admission,Hospice,2,2,1,0.01%,0.01%,0.00%,01/01/2024,12/31/2024
+SOUTHEAST HEALTH MEDICAL CENTER,010001,AL,1 to 3 days Prior to Index Hospital Admission,Inpatient,28,45,46,0.10%,0.17%,0.17%,01/01/2024,12/31/2024
+SOUTHEAST HEALTH MEDICAL CENTER,010001,AL,1 to 3 days Prior to Index Hospital Admission,Outpatient,116,135,208,0.43%,0.52%,0.76%,01/01/2024,12/31/2024
+SOUTHEAST HEALTH MEDICAL CENTER,010001,AL,1 to 3 days Prior to Index Hospital Admission,Skilled Nursing Facility,9,14,17,0.03%,0.05%,0.06%,01/01/2024,12/31/2024
+SOUTHEAST HEALTH MEDICAL CENTER,010001,AL,1 to 3 days Prior to Index Hospital Admission,Durable Medical Equipment,6,11,12,0.02%,0.04%,0.04%,01/01/2024,12/31/2024

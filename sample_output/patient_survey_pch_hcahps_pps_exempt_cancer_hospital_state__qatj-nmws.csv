@@ -1,0 +1,7 @@
+state,measure_id,hcahps_question,hcahps_answer_description,hcahps_answer_percent,start_date,end_date
+AK,H_COMP_1_A_P,"Patients who reported that their nurses ""Always"" communicated well","Nurses ""always"" communicated well",81,10/01/2024,09/30/2025
+AK,H_COMP_1_SN_P,"Patients who reported that their nurses ""Sometimes"" or ""Never"" communicated well","Nurses ""sometimes"" or ""never"" communicated well",3,10/01/2024,09/30/2025
+AK,H_COMP_1_U_P,"Patients who reported that their nurses ""Usually"" communicated well","Nurses ""usually"" communicated well",16,10/01/2024,09/30/2025
+AK,H_NURSE_RESPECT_A_P,"Patients who reported that their nurses ""Always"" treated them with courtesy and respect","Nurses ""always"" treated them with courtesy and  respect",88,10/01/2024,09/30/2025
+AK,H_NURSE_RESPECT_SN_P,"Patients who reported that their nurses ""Sometimes"" or ""Never""  treated them with courtesy and respect","Nurses ""sometimes"" or ""never"" treated them with courtesy and  respect",2,10/01/2024,09/30/2025
+AK,H_NURSE_RESPECT_U_P,"Patients who reported that their nurses ""Usually""  treated them with courtesy and respect","Nurses ""usually""  treated them with courtesy and  respect",10,10/01/2024,09/30/2025

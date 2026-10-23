@@ -1,0 +1,6 @@
+# Runtime
+requests>=2.31
+urllib3>=1.26  # imported directly for Retry (pipeline.py)
+
+# Tests only (not needed to run the pipeline)
+pytest>=8.0

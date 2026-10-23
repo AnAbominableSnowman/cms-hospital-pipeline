@@ -1,0 +1,11 @@
+# Every key is optional; command-line flags override these values.
+out_dir = "output"
+manifest_path = "state/manifest.json"
+db_path = "state/hospitals.db"   # "" disables the SQLite load step
+theme = "Hospitals"
+workers = 8
+# Placeholder text (and blanks) loaded as SQL NULL; columns then type as INTEGER/REAL
+# when every remaining value is a plain number. Matching ignores case and spaces.
+null_markers = ["Not Available", "N/A", "Not Applicable", "Too Few to Report"]
+max_row_drop = 0.3         # block a file whose row count falls by more than 30%
+metadata_url = "https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items"

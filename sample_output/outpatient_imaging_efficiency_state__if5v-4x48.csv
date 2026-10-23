@@ -1,0 +1,7 @@
+state,measure_id,measure_name,score,footnote,start_date,end_date
+AK,OP_10,Abdomen CT Use of Contrast Material,4.2,,07/01/2024,06/30/2025
+AK,OP_39,Breast Cancer Screening Recall Rates,6.8,,07/01/2024,06/30/2025
+AL,OP_10,Abdomen CT Use of Contrast Material,9.5,,07/01/2024,06/30/2025
+AL,OP_39,Breast Cancer Screening Recall Rates,7.5,,07/01/2024,06/30/2025
+AR,OP_10,Abdomen CT Use of Contrast Material,7.9,,07/01/2024,06/30/2025
+AR,OP_39,Breast Cancer Screening Recall Rates,8.1,,07/01/2024,06/30/2025

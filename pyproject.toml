@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cms-pipeline"
+version = "1.1.0"
+description = "Incremental, concurrent ETL for the CMS Provider Data Catalog (Hospitals theme)"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31", "urllib3>=1.26"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+cms-pipeline = "cms_pipeline.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]
+addopts = "-m 'not live'"
+markers = ["live: hits the real CMS API or needs state/hospitals.db (run with -m live)"]

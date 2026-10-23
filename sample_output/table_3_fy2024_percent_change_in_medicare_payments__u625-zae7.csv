@@ -1,0 +1,7 @@
+change_in_base_operating_drg_payment_amount,number_of_hospitals_receiving_this_change
+'1.0%<x',444
+'0.9%<x<=1.0%',47
+'0.8%<x<=0.9%',57
+'0.7%<x<=0.8%',53
+'0.6%<x<=0.7%',74
+'0.5%<x<=0.6%',68

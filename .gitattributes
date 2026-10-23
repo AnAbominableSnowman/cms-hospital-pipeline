@@ -1,0 +1,5 @@
+# Normalize line endings for source and docs.
+* text=auto
+
+# Sample output is stored exactly as the pipeline wrote it (CMS files use CRLF).
+sample_output/** -text
